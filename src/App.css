@@ -7,7 +7,8 @@
 
 .home,
 .riser,
-.contact-us,
+.hotel,
+.services,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -16,17 +17,18 @@
   font-size: 3rem;
 }
 
-.riser {
+/*.riser {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+}*/
 
-.contact-us {
+.services {
+  background-image: url("./images/IMG_8158.JPG");
   background-position: center;
-  background-size: fill;
+  background-size: 100%;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -38,4 +40,38 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+.sign-up {
+  background-image: url("./images/email.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: darkolivegreen;
+  font-size: 100px;
+}
+
+.hotel {
+  background-image: url("./images/hotells.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hotel {
+    background-size: 100%;
+    background-repeat: inherit;
+  }
+
+  .sign-up {
+    background-size: 100%;
+    background-repeat: inherit;
+  }
+
+  .services {
+    background-size: 100%;
+    background-repeat: inherit;
+  }
 }

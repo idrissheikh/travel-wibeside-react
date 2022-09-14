@@ -10,30 +10,30 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/IMG_8158.jpg"
+                        src="images/Lofoten.jpeg"
                         label="Adventure"
-                        text="Explore the hidden waterfall in Norway"
+                        text="De vakreste øyene i verden"
                         path="/products"
                         />
                         <CardItem 
-                        src="images/IMG_8773.jpg"
+                        src="images/t.jpeg"
                         label="Adventure"
-                        text="Explore the hidden waterfall in Norway."
+                        text="Explore one of the best views in Norway."
                         path="/services"
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/IMG_8158.jpg"
+                        src="images/Cruise_Ship.jpeg"
                         label="Adventure"
-                        text=" Aroura Light in Norway"
+                        text="Cruises in the most beautiful strait in the world"
                         path="/sign-up"
                         />
                         <CardItem 
-                        src="images/IMG_8158.jpg"
+                        src="images/Nordlys.jpeg"
                         label="Adventure"
                         text=" Aroura Light in Norway"
-                        path="/hallo"
+                        path="/contact-us"
                         />
                         <CardItem 
                         src="images/IMG_8158.jpg"
