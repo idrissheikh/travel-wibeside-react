@@ -75,3 +75,52 @@
     background-repeat: inherit;
   }
 }
+
+
+
+@media screen and (max-width: 360px){
+
+  .navbar {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    justify-content: start;
+
+}
+
+.navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5px;
+    transform: translate(25%, 50%);
+
+
+
+    
+}
+.hero-container > P {
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #fff;
+  align-items: center;
+  align-content: center;
+  font-family: "Trebuchet Ms", "Lucide Sans Unicode", "Lucide Grande", "Lucide Sans", Arial, Helvetica, sans-serif;
+}
+
+
+.nav-menu {
+  
+  justify-content: start;
+}
+
+
+}
