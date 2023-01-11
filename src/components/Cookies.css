@@ -1,0 +1,80 @@
+
+*{
+    font-family: sans-serif;
+}
+.cookies-card{
+    font-family: sans-serif;
+    
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    position: fixed;
+    bottom: 0.4em;
+    right: 0.3em;
+    width: 350px;
+    border: none;
+    border-radius:1px;
+    padding: 1em;
+}
+
+.cookies-card *{
+    color: aliceblue;
+
+}
+.title{
+    font-size: 1.5em;
+    letter-spacing:0.4px;
+    margin-bottom: 0.5em;
+}
+
+.info{
+    line-height:     1.5em;
+    letter-spacing:0.4px;
+    margin-bottom: 1.3em;
+}
+
+.cbtn{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    padding: 0.8em 1.5em;
+    background-color: black;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius:5px;
+    transition:background-color 0.3s;
+}
+
+
+.cbtn:hover{
+    background-color: #3c9d64;
+
+}
+
+.a{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    transition: color 0.4s;
+
+}
+
+
+a:hover{
+    color: #3c9d64;
+}
+
+a.setting{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(180, 176, 176);
+    border-bottom: none;
+    margin-left: 10px;
+
+
+}
+
+.setting:hover{
+    color: #346ff8;
+
+
+}
+

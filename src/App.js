@@ -8,6 +8,7 @@ import SignUp from "./components/pages/Signup";
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import Hotel from './components/pages/Hotel';
+import Cookies from './components/Cookies';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 
       </Switch>
     </Router>
+    <Cookies/>
     </>
   );
 }
