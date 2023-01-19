@@ -2,10 +2,15 @@ import React , {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
 import  "./Navbar.css";
 import { Button } from './Button.js';
+import Buttons from './Buttons';
+
+
 
 
 
 function Navbar() {
+
+
     const[click ,setClick]=useState(false);
     const[button, setButton]= useState(true);
 
@@ -61,7 +66,7 @@ function Navbar() {
 
                         
                     </ul>
-                    {button && <Button buttonStyle="btn--outline" >Sign in</Button>}
+                    {button && <Buttons className="btn--outline" />}
 
                  </div>
              </nav>
