@@ -1,8 +1,9 @@
-import React , {useState, useEffect} from 'react';
+import React , {useState, useEffect, Profiler} from 'react';
 import {Link} from "react-router-dom";
 import  "./Navbar.css";
 import { Button } from './Button.js';
 import Buttons from './Buttons';
+import Profile from './Profile'
 
 
 
@@ -67,6 +68,7 @@ function Navbar() {
                         
                     </ul>
                     {button && <Buttons className="btn--outline" />}
+                    <Profile className='prof'/>
 
                  </div>
              </nav>
